@@ -1,5 +1,5 @@
+package tarefa;
 
-import tarefa.Agenda;
 import java.util.Scanner;
 
 public class Teste {
@@ -15,6 +15,12 @@ public class Teste {
 			System.out.println("3 — Excluir da agenda");
 			System.out.println("4 — Listar a agenda");
 			System.out.println("0 — Sair");
+			
+			System.out.println("Digite um número");
+			
+			Scanner scan = new Scanner(System.in);
+			
+			System.out.println(scan.next());
 			
 			
 			
