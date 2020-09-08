@@ -117,12 +117,12 @@ public class Main {
 			try {
 				System.in.read();
 			} catch (IOException e) {
-				
+
 				e.printStackTrace();
 			}
 			Helper.clear();
 			Helper.mostrarMenu();
-			//System.out.println("pegando op");
+			// System.out.println("pegando op");
 			op = scan.next();
 
 		}
@@ -187,7 +187,4 @@ class Helper {
 		}
 	}
 
-	static void obterContato() {
-
-	}
 }
